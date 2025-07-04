@@ -1,33 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bouquet Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-            <a href="#" class="nav-logo">
-                <h2 class="logo-text">Coffee</h2>
-            </a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#" class="nav link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav link">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav link">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav link">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Bouquet</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a hfer="#" class="navbar-logo">My<span>Bouquet</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Let's See Our <span>Bouquet</span></h1>
+        <p>
+          "Segenggam bunga yang dirangkai sedemikian rupa oleh sepasang tangan
+          anak manusia"
+        </p>
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+
+    <!-- Hero Section end -->
+
+    <!-- about Section start -->
+    <section id="about" class="about">
+      <h2><span>About</span> Us</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about-us.jpg" alt="About Us" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Memilih MyBouquet?</h3>
+          <p class="paragraf-indent">
+            MyBouquet memiliki berbagai macam jenis bouquet yang sangat menarik.
+            Bouquet-bouquet tersebut dirangkai satu persatu dengan hati-hati
+            agar pesan tersembunyi di dalamnya dapat tersampaikan. Selain
+            bouquet yang tersedia, anda juga dapat memberikan desain bouquet
+            sendiri dan MyBouquet selalu bisa menyelesaikan bouquet-bouquet yang
+            rumit dan unik.
+          </p>
+          <h3>Visi dan Misi</h3>
+          <p class="paragraf-indent">
+            MyBouquet berdiri dengan tujuan untuk menyediakan hadiah yang
+            berkualitas tinggi dan unik, serta memberikan pengalaman belanja
+            yang memuaskan bagi pelanggan.
+          </p>
+          <p class="paragraf-indent">
+            Untuk mencapai tujuan tersebut, kami memiliki visi:
+          </p>
+          <p>1. Menyediakan desain bouquet yang kreatif dan inovatif</p>
+          <p>2. Menggunakan bahan-bahan berkualitas tinggi</p>
+          <p>3. Memberikan pelayanan yang ramah dan profesional.</p>
+          <p class="paragraf-justify">
+            Kami juga berkomitmen untuk memahami kebutuhan dan preferensi
+            pelanggan, serta memberikan harga yang kompetitif dan nilai tambah
+            yang signifikan.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about Section end -->
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="menu">
+      <h2><span>Our</span> Menu</h2>
+      <p>
+        Pesan bouquet cantik di MyBouquet untuk momen spesialmu! Kami siap
+        membantu Anda mengungkapkan perasaan dengan desain unik dan elegan
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="./img/1.jpg" alt="Pink Bouquet" class="menu-card-img" />
+          <h3 class="menu-card-tittle">-Pink Bouquet-</h3>
+          <p class="menu-card-price">IDR 650K</p>
+        </div>
+        <div class="menu-card">
+          <img src="./img/2.jpg" alt="Random Bouquet" class="menu-card-img" />
+          <h3 class="menu-card-tittle">-Random Bouquet-</h3>
+          <p class="menu-card-price">IDR 550K</p>
+        </div>
+        <div class="menu-card">
+          <img src="./img/3.jpg" alt="Peach Bouquet" class="menu-card-img" />
+          <h3 class="menu-card-tittle">-Peach Bouquet-</h3>
+          <p class="menu-card-price">IDR 150K</p>
+        </div>
+        <div class="menu-card">
+          <img src="./img/4.jpg" alt="Tulip Bouquet" class="menu-card-img" />
+          <h3 class="menu-card-tittle">-Tulip Bouquet-</h3>
+          <p class="menu-card-price">IDR 750K</p>
+        </div>
+        <div class="menu-card">
+          <img src="./img/5.jpg" alt="Mawar Bouquet" class="menu-card-img" />
+          <h3 class="menu-card-tittle">-Mawar Bouquet-</h3>
+          <p class="menu-card-price">IDR 650K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2><span>Contact</span> Us</h2>
+      <p>Hubungi kami untuk informasi lebih lanjut atau pemesanan bouquet!</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d174458.58452550872!2d102.23474025397601!3d-3.81358239317486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e36afd779f07007%3A0x3c0143f4c64a7e4d!2sBenteng%20Marlborough!5e0!3m2!1sid!2sid!4v1751623333481!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">send message</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+
+      <div class="credit">
+        <p>Create by <a href="">Nurmelizah</a>. | &copy 2025</p>
+      </div>
+    </footer>
+    <!-- Footer end-->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="JS/script.js"></script>
+  </body>
 </html>
